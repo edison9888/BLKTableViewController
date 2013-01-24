@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1F554FF1664FB9500E96228 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F554FE1664FB9500E96228 /* UIKit.framework */; };
+		C1F555011664FB9500E96228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F555001664FB9500E96228 /* Foundation.framework */; };
+		C1F555031664FB9500E96228 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F555021664FB9500E96228 /* CoreGraphics.framework */; };
+		C1F555091664FB9500E96228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1F555071664FB9500E96228 /* InfoPlist.strings */; };
+		C1F5550B1664FB9500E96228 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F5550A1664FB9500E96228 /* main.m */; };
+		C1F5550F1664FB9500E96228 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F5550E1664FB9500E96228 /* AppDelegate.m */; };
+		C1F555111664FB9500E96228 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F555101664FB9500E96228 /* Default.png */; };
+		C1F555131664FB9500E96228 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F555121664FB9500E96228 /* Default@2x.png */; };
+		C1F555151664FB9500E96228 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F555141664FB9500E96228 /* Default-568h@2x.png */; };
+		C1F555181664FB9500E96228 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F555171664FB9500E96228 /* ViewController.m */; };
+		C1F5551B1664FB9500E96228 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1F555191664FB9500E96228 /* ViewController.xib */; };
+		C1F555241664FBF200E96228 /* BLKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F555231664FBF200E96228 /* BLKTableViewController.m */; };
+		C1F5552E1664FD0F00E96228 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F555261664FD0F00E96228 /* blackArrow.png */; };
+		C1F5552F1664FD0F00E96228 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F555271664FD0F00E96228 /* blackArrow@2x.png */; };
+		C1F555301664FD0F00E96228 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F555281664FD0F00E96228 /* blueArrow.png */; };
+		C1F555311664FD0F00E96228 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F555291664FD0F00E96228 /* blueArrow@2x.png */; };
+		C1F555321664FD0F00E96228 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F5552A1664FD0F00E96228 /* grayArrow.png */; };
+		C1F555331664FD0F00E96228 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F5552B1664FD0F00E96228 /* grayArrow@2x.png */; };
+		C1F555341664FD0F00E96228 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F5552C1664FD0F00E96228 /* whiteArrow.png */; };
+		C1F555351664FD0F00E96228 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F5552D1664FD0F00E96228 /* whiteArrow@2x.png */; };
+		C1F555391664FD5000E96228 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F555381664FD5000E96228 /* EGORefreshTableHeaderView.m */; };
+		C1F5553F1665032A00E96228 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F5553E1665032A00E96228 /* QuartzCore.framework */; };
+		C1F5554216650E6300E96228 /* BLKLoadMoreFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F5554116650E6300E96228 /* BLKLoadMoreFooterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1F554FA1664FB9500E96228 /* BLKTableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLKTableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F554FE1664FB9500E96228 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1F555001664FB9500E96228 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1F555021664FB9500E96228 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1F555061664FB9500E96228 /* BLKTableViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLKTableViewController-Info.plist"; sourceTree = "<group>"; };
+		C1F555081664FB9500E96228 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1F5550A1664FB9500E96228 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1F5550C1664FB9500E96228 /* BLKTableViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLKTableViewController-Prefix.pch"; sourceTree = "<group>"; };
+		C1F5550D1664FB9500E96228 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1F5550E1664FB9500E96228 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1F555101664FB9500E96228 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C1F555121664FB9500E96228 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C1F555141664FB9500E96228 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C1F555161664FB9500E96228 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1F555171664FB9500E96228 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1F5551A1664FB9500E96228 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C1F555221664FBF200E96228 /* BLKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLKTableViewController.h; sourceTree = "<group>"; };
+		C1F555231664FBF200E96228 /* BLKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLKTableViewController.m; sourceTree = "<group>"; };
+		C1F555261664FD0F00E96228 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		C1F555271664FD0F00E96228 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		C1F555281664FD0F00E96228 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		C1F555291664FD0F00E96228 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		C1F5552A1664FD0F00E96228 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		C1F5552B1664FD0F00E96228 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		C1F5552C1664FD0F00E96228 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		C1F5552D1664FD0F00E96228 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		C1F555371664FD5000E96228 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		C1F555381664FD5000E96228 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		C1F5553E1665032A00E96228 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C1F5554016650E6300E96228 /* BLKLoadMoreFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLKLoadMoreFooterView.h; sourceTree = "<group>"; };
+		C1F5554116650E6300E96228 /* BLKLoadMoreFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLKLoadMoreFooterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1F554F71664FB9500E96228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F5553F1665032A00E96228 /* QuartzCore.framework in Frameworks */,
+				C1F554FF1664FB9500E96228 /* UIKit.framework in Frameworks */,
+				C1F555011664FB9500E96228 /* Foundation.framework in Frameworks */,
+				C1F555031664FB9500E96228 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1F554EF1664FB9500E96228 = {
+			isa = PBXGroup;
+			children = (
+				C1F555041664FB9500E96228 /* BLKTableViewController */,
+				C1F554FD1664FB9500E96228 /* Frameworks */,
+				C1F554FB1664FB9500E96228 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1F554FB1664FB9500E96228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1F554FA1664FB9500E96228 /* BLKTableViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1F554FD1664FB9500E96228 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1F5553E1665032A00E96228 /* QuartzCore.framework */,
+				C1F554FE1664FB9500E96228 /* UIKit.framework */,
+				C1F555001664FB9500E96228 /* Foundation.framework */,
+				C1F555021664FB9500E96228 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1F555041664FB9500E96228 /* BLKTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C1F555211664FBCB00E96228 /* BLKTableViewController */,
+				C1F5550D1664FB9500E96228 /* AppDelegate.h */,
+				C1F5550E1664FB9500E96228 /* AppDelegate.m */,
+				C1F555161664FB9500E96228 /* ViewController.h */,
+				C1F555171664FB9500E96228 /* ViewController.m */,
+				C1F555191664FB9500E96228 /* ViewController.xib */,
+				C1F555051664FB9500E96228 /* Supporting Files */,
+			);
+			path = BLKTableViewController;
+			sourceTree = "<group>";
+		};
+		C1F555051664FB9500E96228 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1F555061664FB9500E96228 /* BLKTableViewController-Info.plist */,
+				C1F555071664FB9500E96228 /* InfoPlist.strings */,
+				C1F5550A1664FB9500E96228 /* main.m */,
+				C1F5550C1664FB9500E96228 /* BLKTableViewController-Prefix.pch */,
+				C1F555101664FB9500E96228 /* Default.png */,
+				C1F555121664FB9500E96228 /* Default@2x.png */,
+				C1F555141664FB9500E96228 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1F555211664FBCB00E96228 /* BLKTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C1F555361664FD5000E96228 /* Classes */,
+				C1F555251664FD0F00E96228 /* Resources */,
+				C1F555221664FBF200E96228 /* BLKTableViewController.h */,
+				C1F555231664FBF200E96228 /* BLKTableViewController.m */,
+			);
+			path = BLKTableViewController;
+			sourceTree = "<group>";
+		};
+		C1F555251664FD0F00E96228 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1F555261664FD0F00E96228 /* blackArrow.png */,
+				C1F555271664FD0F00E96228 /* blackArrow@2x.png */,
+				C1F555281664FD0F00E96228 /* blueArrow.png */,
+				C1F555291664FD0F00E96228 /* blueArrow@2x.png */,
+				C1F5552A1664FD0F00E96228 /* grayArrow.png */,
+				C1F5552B1664FD0F00E96228 /* grayArrow@2x.png */,
+				C1F5552C1664FD0F00E96228 /* whiteArrow.png */,
+				C1F5552D1664FD0F00E96228 /* whiteArrow@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C1F555361664FD5000E96228 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1F555371664FD5000E96228 /* EGORefreshTableHeaderView.h */,
+				C1F555381664FD5000E96228 /* EGORefreshTableHeaderView.m */,
+				C1F5554016650E6300E96228 /* BLKLoadMoreFooterView.h */,
+				C1F5554116650E6300E96228 /* BLKLoadMoreFooterView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1F554F91664FB9500E96228 /* BLKTableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F5551E1664FB9500E96228 /* Build configuration list for PBXNativeTarget "BLKTableViewController" */;
+			buildPhases = (
+				C1F554F61664FB9500E96228 /* Sources */,
+				C1F554F71664FB9500E96228 /* Frameworks */,
+				C1F554F81664FB9500E96228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLKTableViewController;
+			productName = BLKTableViewController;
+			productReference = C1F554FA1664FB9500E96228 /* BLKTableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1F554F11664FB9500E96228 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = com.gyz;
+			};
+			buildConfigurationList = C1F554F41664FB9500E96228 /* Build configuration list for PBXProject "BLKTableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1F554EF1664FB9500E96228;
+			productRefGroup = C1F554FB1664FB9500E96228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1F554F91664FB9500E96228 /* BLKTableViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1F554F81664FB9500E96228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F555091664FB9500E96228 /* InfoPlist.strings in Resources */,
+				C1F555111664FB9500E96228 /* Default.png in Resources */,
+				C1F555131664FB9500E96228 /* Default@2x.png in Resources */,
+				C1F555151664FB9500E96228 /* Default-568h@2x.png in Resources */,
+				C1F5551B1664FB9500E96228 /* ViewController.xib in Resources */,
+				C1F5552E1664FD0F00E96228 /* blackArrow.png in Resources */,
+				C1F5552F1664FD0F00E96228 /* blackArrow@2x.png in Resources */,
+				C1F555301664FD0F00E96228 /* blueArrow.png in Resources */,
+				C1F555311664FD0F00E96228 /* blueArrow@2x.png in Resources */,
+				C1F555321664FD0F00E96228 /* grayArrow.png in Resources */,
+				C1F555331664FD0F00E96228 /* grayArrow@2x.png in Resources */,
+				C1F555341664FD0F00E96228 /* whiteArrow.png in Resources */,
+				C1F555351664FD0F00E96228 /* whiteArrow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1F554F61664FB9500E96228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F5550B1664FB9500E96228 /* main.m in Sources */,
+				C1F5550F1664FB9500E96228 /* AppDelegate.m in Sources */,
+				C1F555181664FB9500E96228 /* ViewController.m in Sources */,
+				C1F555241664FBF200E96228 /* BLKTableViewController.m in Sources */,
+				C1F555391664FD5000E96228 /* EGORefreshTableHeaderView.m in Sources */,
+				C1F5554216650E6300E96228 /* BLKLoadMoreFooterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1F555071664FB9500E96228 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F555081664FB9500E96228 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1F555191664FB9500E96228 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F5551A1664FB9500E96228 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1F5551C1664FB9500E96228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1F5551D1664FB9500E96228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1F5551F1664FB9500E96228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLKTableViewController/BLKTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "BLKTableViewController/BLKTableViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C1F555201664FB9500E96228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLKTableViewController/BLKTableViewController-Prefix.pch";
+				INFOPLIST_FILE = "BLKTableViewController/BLKTableViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1F554F41664FB9500E96228 /* Build configuration list for PBXProject "BLKTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F5551C1664FB9500E96228 /* Debug */,
+				C1F5551D1664FB9500E96228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F5551E1664FB9500E96228 /* Build configuration list for PBXNativeTarget "BLKTableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F5551F1664FB9500E96228 /* Debug */,
+				C1F555201664FB9500E96228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1F554F11664FB9500E96228 /* Project object */;
+}
