@@ -1,3 +1,3 @@
 BLKTableViewController
 ======================
-A simple bur reuseable ViewController with RefreshHeader and LoadMoreFooter.
+A simple bur reusable ViewController with RefreshHeader and LoadMoreFooter.
